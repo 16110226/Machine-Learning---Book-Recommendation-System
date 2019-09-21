@@ -1,0 +1,15 @@
+- User-based Collaborative Filtering (UB - CF)
+Imagine that we want to recommend a book to our friend My Tue. We would assume that similar
+people will have similar taste. That means if I and Tue have read many same books, and we rated
+them almost identically. I already read "Mat Ngot Chet Meo" by Meo Mun Den and gave this book
+high rating, but she didn't ==> Very maybe likely probably possibly, she would love the book too ==> Recommend it
+to her ==> We used User-based Collaborative Filtering
+
+- Item-based Collaborative Filtering (IB - CF)
+Each book will have its author, category, published year, publishing company, etc etc. Instead of
+focusing on me (similar users), we will focus on the features of the items to decide - Would Tue
+like it or not?
+We could divide IB-CF into 2 sub-tasks:
+	1) Calculate similarity among the items by using Cosine-based Similarity
+	2) Calculation of Prediction by using either Weighted Sum or Regression
+ 
